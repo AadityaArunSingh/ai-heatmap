@@ -1,6 +1,6 @@
 # 🧠 ChatGPT Usage Heatmap (OpenAI Old vs New Account)
 
-This project visualizes your usage of ChatGPT over time, using heatmaps inspired by GitHub contribution graphs. It compares your **current (new)** ChatGPT account activity with a previously exported **old** account, helping you analyze engagement patterns across the year.
+This project visualizes my usage of ChatGPT over time, using heatmaps inspired by GitHub contribution graphs. It compares my **current (premium)** ChatGPT account activity with a previously exported **free-tier** account, helping in analysing engagement patterns across the year.
 
 ---
 
@@ -21,14 +21,14 @@ Displays a colored overlay comparing two accounts:
 ---
 
 ## 🛠 How It Works
-1.	Data Extraction: The exported JSON from your ChatGPT account (Settings → Data Controls → Export) contains all conversations.
+1.	Data Extraction: The exported JSON from my ChatGPT account (Settings → Data Controls → Export) contains all conversations.
 2.	Flattening Conversations: Python scripts extract timestamps from each message node (user or assistant) and convert them to datetime objects.
-3. Heatmap Construction: Using matplotlib, messages are aggregated by date and visualized on a weekly calendar grid.
+3.  Heatmap Construction: Using matplotlib, messages are aggregated by date and visualized on a weekly calendar grid.
 
 ---
 
 ### 🖼️ Output: Account Comparison Heatmap
 
-This heatmap compares usage between your old and new ChatGPT accounts in 2025:
+This heatmap compares usage between my old and new ChatGPT accounts in 2025:
 
 ![ChatGPT Account Comparison Heatmap](output.png)
