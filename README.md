@@ -25,3 +25,10 @@ Displays a colored overlay comparing two accounts:
 2.	Flattening Conversations: Python scripts extract timestamps from each message node (user or assistant) and convert them to datetime objects.
 3. Heatmap Construction: Using matplotlib, messages are aggregated by date and visualized on a weekly calendar grid.
 
+---
+
+### 🖼️ Output: Account Comparison Heatmap
+
+This heatmap compares usage between your old and new ChatGPT accounts in 2025:
+
+![ChatGPT Account Comparison Heatmap](output.png)
